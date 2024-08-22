@@ -1,0 +1,46 @@
+.about {
+    padding: 80px 20px; /* Added padding for a more spacious layout */
+    text-align: center;
+    min-height: 55vh;
+    background-color: #f5f5f5; /* Light gray background for contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; /* Ensure padding inside the container */
+  }
+  
+  .about-content h2 {
+    font-size: 36px; /* Slightly larger font size for the heading */
+    color: #008080; /* Teal color for the heading */
+    margin-bottom: 20px;
+    font-weight: bold; /* Bold font weight for emphasis */
+    text-transform: uppercase; /* Uppercase for a modern touch */
+  }
+  
+  .about-content p {
+    font-size: 18px; /* Larger font size for better readability */
+    color: #333333; /* Dark gray color for the paragraph text */
+    line-height: 1.8; /* Increased line-height for improved readability */
+    max-width: 700px; /* Maximum width for the paragraph for better line length */
+    margin: 10px auto; /* Center-align the paragraph */
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 0 15px; /* Reduced padding on smaller screens */
+    }
+  
+    .about-content h2 {
+      font-size: 28px; /* Adjusted font size for mobile devices */
+    }
+  
+    .about-content p {
+      font-size: 16px; /* Adjusted font size for mobile devices */
+    }
+  }
+  

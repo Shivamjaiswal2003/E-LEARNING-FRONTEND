@@ -1,0 +1,49 @@
+footer {
+    background-color: #FF9933; /* Bhagwa Orange */
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #f1f1f1; /* Slightly lighter on hover */
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #008080; /* Teal on hover */
+}

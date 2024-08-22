@@ -1,0 +1,29 @@
+.student-dashboard {
+    padding: 80px 20px; /* Increased padding for better spacing */
+    text-align: center;
+    min-height: 55vh;
+    background-color: #f7f9fc; /* Light background for contrast */
+  
+    h2 {
+      font-size: 28px; /* Increased font size for prominence */
+      color: #008080; /* Secondary color */
+      margin-bottom: 30px; /* Space below heading */
+      font-weight: bold; /* Bold for emphasis */
+    }
+  
+    p {
+      font-size: 18px; /* Slightly larger font size */
+      color: #666666; /* Neutral gray color */
+      margin-top: 20px; /* Space above message */
+    }
+  
+    .dashboard-content {
+      display: flex;
+      justify-content: center; /* Center the content */
+      flex-wrap: wrap;
+      gap: 30px; /* Increased gap for better spacing */
+      margin-top: 40px;
+      padding: 0 20px; /* Padding to ensure items are not too close to the edge */
+    }
+  }
+  
